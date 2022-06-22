@@ -1,0 +1,194 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+.main_content {
+    position: relative;
+    top: 69px; /* To offset for fixed header. */
+  }
+
+/* Header */  
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+}
+
+header .content {
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav a {
+    color: seashell;
+    padding-left: 20px;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+/* Mission */
+
+#mission {
+    display: flex;
+    background-image: url("assets/background.jpeg");
+    height: 700px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#mission h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mission h4 {
+    margin-top: 16px;
+}
+
+#mission .text {
+    background-color: black;
+    padding: 0.2rem 0.2rem;
+    width: 100%;
+}
+
+/* Teas of the Month */
+
+#month {
+    display: block;
+    padding: 5% 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#month h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#month h4 {
+    margin-top: 16px;
+}
+
+#month .selected_teas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#month .item {
+    margin: 2% 1%;
+}
+
+#month img {
+    height: 200px;
+    width: 300px;
+}
+
+#month .text {
+    margin: 0 auto;
+}
+
+#month .item_text {
+    margin: 10px auto;
+}
+
+/* Locations */
+
+#locations {
+    display: flex;
+    background-image: url("assets/locations.jpeg");
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#locations .items {
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#locations .item {
+    background-color: black;
+    width: 300px;
+    padding: 30px 0;
+}
+
+#locations h3 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#locations p {
+    font-weight: normal;
+    line-height: 3;
+}
+
+#mission .text {
+    background-color: black;
+    padding: 0.2rem 0.2rem;
+    width: 100%;
+}
+
+/* Locations */
+
+#contacts {
+    margin: 20px 0;
+}
+
+#contacts h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#contacts h5 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 4;
+}
+
+/* Locations */
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
